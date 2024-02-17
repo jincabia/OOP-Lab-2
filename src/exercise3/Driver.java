@@ -37,10 +37,11 @@ public class Driver
 		if(sortType.equals("q"))
 		{
 			quickSort(nums,0,nums.length-1);
+			System.out.println("\n This is sorted");
 		}
 //		System.out.println(sortType);
 
-		System.out.println("\n This is sorted");
+		
 		
 
 		for(int i : nums)
